@@ -4,7 +4,7 @@
   "description": "Inject environment variables into all html files in a folder",
   "main": "cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   },
   "bin": {
     "envsubfolder": "./cli.js"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.4"
   }
 }
