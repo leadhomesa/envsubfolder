@@ -6,7 +6,7 @@ A cli utility that walks a folder recursively, replacing any environment variabl
 
 Install this package globally using:
 
-`npm install -g envsubfolder`
+`npm install -g @leadhome/envsubfolder`
 
 You should then be able to use it like this:
 
